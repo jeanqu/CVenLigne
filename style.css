@@ -1,0 +1,73 @@
+body{
+	margin: auto;
+	max-width: 1654px;
+	height: 2339px;
+	font-size: 24px;
+}
+.haut_de_page{
+	height: 300px;
+	margin-top: 50px;
+}
+.contenu{
+	margin: auto;
+	max-width: 1400px;
+}
+.bonjour{
+	display: inline-block;
+	font-size: 85px;
+}
+.texte{
+	max-width: 1080px;
+}
+.titre{
+	font-size: 40px;
+}
+.sous_titre{
+	font-size: 30px;
+}
+.titre .nom_prenom{
+
+}
+.texte{
+	display: inline-block;
+}
+.titre{
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+}
+.colonne_gauche{
+	display: inline-block;
+	min-height: 600px;
+	width: 650px;
+	border-right: 3px solid black;
+}
+.colonne_droite{
+	display: inline-block;
+	min-height: 600px;
+	min-width: 1000px;
+}
+.photo_contact{
+	border-bottom: 3px solid black;
+}
+.formations{
+	border-bottom: 3px solid black;
+}
+.photo_contact .photo{
+	margin: auto;
+	width: 200px;
+	height: 200px;
+	border: 3px solid black;
+}
+.les_contact .icone{
+	width: 43px;
+	height: 43px;
+}
+.icone, .text{
+	display: inline-block;
+}
+.telephone .icone{
+	background-image:url(pictures/telephone.png);
+}
+.mail .icone{
+	background-image:url(pictures/mail.png);
+}

@@ -1,33 +1,138 @@
+<!DOCTYPE html>
 <html>
   <head>
     <title>Angular 2 QuickStart</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">    
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+
     <!-- 1. Load libraries -->
-    <!-- IE required polyfills, in this exact order -->
-    <script src="node_modules/es6-shim/es6-shim.min.js"></script>
-    <script src="node_modules/systemjs/dist/system-polyfills.js"></script>
-    <script src="node_modules/angular2/es6/dev/src/testing/shims_for_IE.js"></script>   
-    <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
-    <script src="node_modules/systemjs/dist/system.src.js"></script>
-    <script src="node_modules/rxjs/bundles/Rx.js"></script>
-    <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
-    <!-- 2. Configure SystemJS -->
-    <script>
-      System.config({
-        packages: {        
-          app: {
-            format: 'register',
-            defaultExtension: 'js'
-          }
-        }
-      });
-      System.import('app/main')
-            .then(null, console.error.bind(console));
-    </script>
+    <!-- IE required polyfill -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.35.0/es6-shim.min.js"></script>
+    <script src="https://npmcdn.com/angular2@2.0.0-beta.14/es6/dev/src/testing/shims_for_IE.js"></script>   
+     
+    <script src="https://code.angularjs.org/2.0.0-beta.14/angular2-polyfills.js"></script>
+    <script src="https://code.angularjs.org/2.0.0-beta.14/Rx.umd.js"></script>
+    <script src="https://code.angularjs.org/2.0.0-beta.14/angular2-all.umd.dev.js"></script>
+
+    <script src='app/app.component.js'></script>
+    <script src='app/main.js'></script> -->
+
   </head>
+
   <!-- 3. Display the application -->
   <body>
-    <my-app>Loading...</my-app>
+    <div class="contenu">
+      <div class="haut_de_page">
+        <div class="presentations">
+          <div class="bonjour">
+            Bonjour!
+          </div>
+          <div class="texte">
+            Actuellement en dernier semestre d'étude d'ingénieur informatique, spécialisation fouille de données, je cherche un stage d'ingénieur pour mettre en oeuvre les compétences acquises et en apprendre de nouvelles.
+          </div>
+        </div>
+        <div class="titre">
+          <div class="ligne1"> 
+            <span class="nom_prenom"> JEAN QUEVAL</span> <span class="metier">, data scientist student </span>
+          </div> 
+        </div>
+      </div>
+      <div class="informations">
+        <div class="colonne_gauche">
+          <div class="photo_contact">
+            <div class="photo">
+              
+            </div>
+            <div class="conteneur_contact">
+              <div class="adresse">
+                130 rue de Sannois
+              </div>
+              <div class="contact">
+                <div class="titre_contact">
+                  Contact
+                </div>
+                <div class="les_contact">
+                  <div class="telephone"> 
+                    <div class="icone">
+                      
+                    </div>
+                    <div class="text">
+                      06 70 42 26 71
+                    </div>
+                  </div>
+                  <div class="mail">
+                    <div class="icone">
+                      
+                    </div>
+                    <div class="text">
+                      jean.queval1@gmail.com
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="formations">
+            <div class="titre_formation titre">
+              Formation
+            </div>
+            <div class="uneforma">
+              <div class="sous_titre">
+                Etude d'ingénieur informatique à l'UTC
+              </div>
+              <div class="date_titre">
+                2013 - 2016
+              </div>
+              <div class="description_conteneur">
+                <div class="une_incone">
+                  
+                </div>
+                <div class="texte">
+                  
+                </div>
+              </div>
+            </div>
+            <div class="uneforma">
+              <div class="sous_titre">
+                Classe préparatoire intégrée à l'UTC
+              </div>
+              <div class="date_titre">
+                
+              </div>
+              <div class="description_conteneur">
+                <div class="une_incone">
+                  
+                </div>
+                <div class="texte">
+                </div>
+              </div>
+            </div>
+            <div class="uneforma">
+              <div class="sous_titre">
+                Baccalauréa, mention bien
+              </div>
+              <div class="date_titre">
+                
+              </div>
+              <div class="description_conteneur">
+                <div class="une_incone">
+                  
+                </div>
+                <div class="texte">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="langues">
+            
+          </div>
+        </div>
+        <div class="colonne_droite">
+          
+        </div>
+      </div>
+    </div>
   </body>
+
 </html>
